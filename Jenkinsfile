@@ -1,7 +1,7 @@
 
 pipeline {
     agent any    
-         stage('Build ') 
+         stage('Build') 
 		{ 
              agent{
                     docker {
@@ -21,7 +21,7 @@ pipeline {
                    '''
                     }
         }
-		  stage('Test ') 
+		  stage('Test') 
 		{ 
             
             steps {               
